@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://dfuuvp7s0dcxm"]
+
+[ext_resource type="Script" path="res://tile_map/NoiseTerrainMap.cs" id="1_script"]
+[ext_resource type="TileSet" path="res://assets/tile_map/noise_map_four/terrain_noise_map.tres" id="2_tiles"]
+
+[node name="NoiseTerrainMap" type="Node2D" unique_id=1795329458]
+script = ExtResource("1_script")
+
+[node name="Overview" type="Sprite2D" parent="."]
+texture_filter = 1
+centered = false
+scale = Vector2(32, 32)
+
+[node name="Terrain" type="TileMapLayer" parent="." unique_id=61069228]
+texture_filter = 1
+tile_set = ExtResource("2_tiles")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1172149701]
+position = Vector2(16384, 16384)
+zoom = Vector2(0.02, 0.02)
+
+[node name="Hud" type="CanvasLayer" parent="." unique_id=1085807441]
+
+[node name="Panel" type="PanelContainer" parent="Hud" unique_id=478223759]
+offset_left = 12.0
+offset_top = 12.0
+offset_right = 252.0
+offset_bottom = 205.0
+
+[node name="Rows" type="VBoxContainer" parent="Hud/Panel" unique_id=1218108313]
+layout_mode = 2
+
+[node name="Actions" type="GridContainer" parent="Hud/Panel/Rows" unique_id=768557460]
+layout_mode = 2
+columns = 2
+
+[node name="Regenerate" type="Button" parent="Hud/Panel/Rows/Actions" unique_id=609279795]
+layout_mode = 2
+text = "重新生成"
+
+[node name="Apply" type="Button" parent="Hud/Panel/Rows/Actions"]
+layout_mode = 2
+text = "应用参数"
+
+[node name="Iterate" type="Button" parent="Hud/Panel/Rows/Actions" unique_id=63316269]
+layout_mode = 2
+text = "迭代"
+
+[node name="Save" type="Button" parent="Hud/Panel/Rows/Actions" unique_id=1462268966]
+layout_mode = 2
+text = "保存"
+
+[node name="Load" type="Button" parent="Hud/Panel/Rows/Actions" unique_id=2055592142]
+layout_mode = 2
+text = "加载"
+
+[node name="Fit" type="Button" parent="Hud/Panel/Rows/Actions"]
+layout_mode = 2
+text = "全图"
+
+[node name="SeedLabel" type="Label" parent="Hud/Panel/Rows" unique_id=699102150]
+layout_mode = 2
+text = "当前种子："
+
+[node name="StatusLabel" type="Label" parent="Hud/Panel/Rows" unique_id=526932663]
+layout_mode = 2
+autowrap_mode = 2
+
+[node name="HelpLabel" type="Label" parent="Hud/Panel/Rows"]
+layout_mode = 2
+text = "滚轮缩放 · 右键/中键拖动"
+autowrap_mode = 2

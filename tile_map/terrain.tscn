@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bfjw7p22yruix"]
 
 [ext_resource type="Texture2D" uid="uid://ctduy26ox5qre" path="res://assets/tile_map/mountain_landscape.png" id="1_uvge0"]
+[ext_resource type="Texture2D" uid="uid://0qmmmbqrl8u0" path="res://assets/props/prop_tree_broadleaf_a.png" id="2_cwrni"]
 
 [sub_resource type="TileMapPattern" id="TileMapPattern_uvge0"]
 resource_name = "草丛-高草"
@@ -843,6 +844,16 @@ texture_region_size = Vector2i(32, 32)
 14:15/0 = 0
 15:15/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rf5ry"]
+texture = ExtResource("2_cwrni")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+
 [sub_resource type="TileSet" id="TileSet_wvhbo"]
 tile_size = Vector2i(32, 32)
 terrain_set_0/mode = 1
@@ -857,6 +868,7 @@ terrain_set_0/terrain_3/color = Color(0.16597462, 0.24126011, 0.46711743, 1)
 terrain_set_0/terrain_4/name = "石砖路"
 terrain_set_0/terrain_4/color = Color(0.5, 0.5, 0.55, 1)
 sources/0 = SubResource("TileSetAtlasSource_fl6jd")
+sources/1 = SubResource("TileSetAtlasSource_rf5ry")
 pattern_0 = SubResource("TileMapPattern_uvge0")
 pattern_1 = SubResource("TileMapPattern_cwrni")
 pattern_2 = SubResource("TileMapPattern_7yle2")

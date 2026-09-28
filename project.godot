@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="TileMap"
-run/main_scene="res://tile_map/mountain_valley.tscn"
-config/features=PackedStringArray("4.7", "Forward Plus")
+run/main_scene="res://tile_map/noise_terrain_map.tscn"
+config/features=PackedStringArray("4.7", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
