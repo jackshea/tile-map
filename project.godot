@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="TileMap"
-run/main_scene="uid://bsab0d8eggkcv"
+run/main_scene="res://tile_map/mountain_valley.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 

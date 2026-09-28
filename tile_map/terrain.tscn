@@ -1,6 +1,121 @@
-[gd_scene format=3 uid="uid://bsab0d8eggkcv"]
+[gd_scene format=3 uid="uid://bfjw7p22yruix"]
 
 [ext_resource type="Texture2D" uid="uid://ctduy26ox5qre" path="res://assets/tile_map/mountain_landscape.png" id="1_uvge0"]
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_uvge0"]
+resource_name = "草丛-高草"
+tile_data = PackedInt32Array(0, 262144, 9, 65536, 262144, 10, 131072, 262144, 11, 1, 327680, 9, 65537, 327680, 10, 131073, 327680, 11, 2, 393216, 9, 65538, 393216, 10, 131074, 393216, 11)
+metadata/mountain_atlas_group = "草丛-高草"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_cwrni"]
+resource_name = "草丛-矮草"
+tile_data = PackedInt32Array(0, 393216, 7, 65536, 393216, 8, 1, 458752, 7, 65537, 458752, 8)
+metadata/mountain_atlas_group = "草丛-矮草"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_rf5ry"]
+resource_name = "山洞"
+tile_data = PackedInt32Array(0, 917504, 10, 65536, 917504, 11, 131072, 917504, 12, 196608, 917504, 13, 1, 983040, 10, 65537, 983040, 11, 131073, 983040, 12, 196609, 983040, 13)
+metadata/mountain_atlas_group = "山洞"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_ui7y3"]
+resource_name = "篝火"
+tile_data = PackedInt32Array(0, 262144, 7, 65536, 262144, 8, 1, 327680, 7, 65537, 327680, 8)
+metadata/mountain_atlas_group = "篝火"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_s4shs"]
+resource_name = "阔叶树"
+tile_data = PackedInt32Array(0, 262144, 12, 65536, 262144, 13, 131072, 262144, 14, 196608, 262144, 15, 1, 327680, 12, 65537, 327680, 13, 131073, 327680, 14, 196609, 327680, 15, 2, 393216, 12, 65538, 393216, 13, 131074, 393216, 14, 196610, 393216, 15)
+metadata/mountain_atlas_group = "阔叶树"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_ssqff"]
+resource_name = "针叶树-小"
+tile_data = PackedInt32Array(0, 458752, 13, 65536, 458752, 14, 131072, 458752, 15, 1, 524288, 13, 65537, 524288, 14, 131073, 524288, 15)
+metadata/mountain_atlas_group = "针叶树-小"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_7fsnu"]
+resource_name = "针叶树-大"
+tile_data = PackedInt32Array(0, 589824, 12, 65536, 589824, 13, 131072, 589824, 14, 196608, 589824, 15, 1, 655360, 12, 65537, 655360, 13, 131073, 655360, 14, 196609, 655360, 15)
+metadata/mountain_atlas_group = "针叶树-大"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_xjj43"]
+resource_name = "岩石-立石"
+tile_data = PackedInt32Array(0, 720896, 12, 65536, 720896, 13)
+metadata/mountain_atlas_group = "岩石-立石"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_gyc6x"]
+resource_name = "岩石-碎石"
+tile_data = PackedInt32Array(0, 786432, 12)
+metadata/mountain_atlas_group = "岩石-碎石"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_eo8gq"]
+resource_name = "岩石-尖石"
+tile_data = PackedInt32Array(0, 851968, 12, 65536, 851968, 13)
+metadata/mountain_atlas_group = "岩石-尖石"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_fnil5"]
+resource_name = "岩石-深色"
+tile_data = PackedInt32Array(0, 786432, 13, 65536, 786432, 14)
+metadata/mountain_atlas_group = "岩石-深色"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_dnlk8"]
+resource_name = "岩石-宽石"
+tile_data = PackedInt32Array(0, 720896, 14, 65536, 720896, 15)
+metadata/mountain_atlas_group = "岩石-宽石"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_7yle2"]
+resource_name = "草丛-长叶"
+tile_data = PackedInt32Array(0, 655360, 5, 65536, 655360, 6)
+metadata/mountain_atlas_group = "草丛-长叶"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_qbcek"]
+resource_name = "岩石-扁石"
+tile_data = PackedInt32Array(0, 786432, 15)
+metadata/mountain_atlas_group = "岩石-扁石"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_3isxy"]
+resource_name = "石堆"
+tile_data = PackedInt32Array(0, 851968, 14, 65536, 851968, 15)
+metadata/mountain_atlas_group = "石堆"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_2bfxn"]
+resource_name = "石制圆盘"
+tile_data = PackedInt32Array(0, 917504, 14, 65536, 917504, 15, 1, 983040, 14, 65537, 983040, 15)
+metadata/mountain_atlas_group = "石制圆盘"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_jx7ga"]
+resource_name = "蕨叶"
+tile_data = PackedInt32Array(0, 458752, 9)
+metadata/mountain_atlas_group = "蕨叶"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_ro407"]
+resource_name = "花丛"
+tile_data = PackedInt32Array(0, 458752, 10)
+metadata/mountain_atlas_group = "花丛"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_dvmrs"]
+resource_name = "草丛-小簇"
+tile_data = PackedInt32Array(0, 524288, 10)
+metadata/mountain_atlas_group = "草丛-小簇"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_biqp4"]
+resource_name = "山地-圆顶"
+tile_data = PackedInt32Array(65536, 0, 1, 131072, 0, 2, 196608, 0, 3, 262144, 0, 4, 327680, 0, 5, 393216, 0, 6, 1, 65536, 0, 65537, 65536, 1, 131073, 65536, 2, 196609, 65536, 3, 262145, 65536, 4, 327681, 65536, 5, 393217, 65536, 6, 2, 131072, 0, 65538, 131072, 1, 131074, 131072, 2, 196610, 131072, 3, 262146, 131072, 4, 327682, 131072, 5, 393218, 131072, 6, 3, 196608, 0, 65539, 196608, 1, 131075, 196608, 2, 196611, 196608, 3, 262147, 196608, 4, 327683, 196608, 5, 393219, 196608, 6, 4, 262144, 0, 65540, 262144, 1, 131076, 262144, 2, 196612, 262144, 3, 262148, 262144, 4, 327684, 262144, 5, 393220, 262144, 6, 65541, 327680, 1, 131077, 327680, 2, 196613, 327680, 3, 262149, 327680, 4, 327685, 327680, 5, 393221, 327680, 6)
+metadata/mountain_atlas_group = "山地-圆顶"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_rh38x"]
+resource_name = "山地-横向"
+tile_data = PackedInt32Array(0, 393216, 0, 65536, 393216, 1, 131072, 393216, 2, 196608, 393216, 3, 262144, 393216, 4, 327680, 393216, 5, 393216, 393216, 6, 1, 458752, 0, 65537, 458752, 1, 131073, 458752, 2, 196609, 458752, 3, 262145, 458752, 4, 327681, 458752, 5, 393217, 458752, 6, 2, 524288, 0, 65538, 524288, 1, 131074, 524288, 2, 196610, 524288, 3, 262146, 524288, 4, 327682, 524288, 5, 393218, 524288, 6, 3, 589824, 0, 65539, 589824, 1, 131075, 589824, 2, 196611, 589824, 3, 262147, 589824, 4, 327683, 589824, 5, 393219, 589824, 6)
+metadata/mountain_atlas_group = "山地-横向"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_g23xe"]
+resource_name = "山地-陡坡"
+tile_data = PackedInt32Array(0, 0, 7, 65536, 0, 8, 131072, 0, 9, 196608, 0, 10, 262144, 0, 11, 1, 65536, 7, 65537, 65536, 8, 131073, 65536, 9, 196609, 65536, 10, 262145, 65536, 11, 2, 131072, 7, 65538, 131072, 8, 131074, 131072, 9, 196610, 131072, 10, 262146, 131072, 11, 3, 196608, 7, 65539, 196608, 8, 131075, 196608, 9, 196611, 196608, 10, 262147, 196608, 11)
+metadata/mountain_atlas_group = "山地-陡坡"
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_a3fpb"]
+resource_name = "山地-崖壁"
+tile_data = PackedInt32Array(0, 0, 12, 65536, 0, 13, 131072, 0, 14, 196608, 0, 15, 1, 65536, 12, 65537, 65536, 13, 131073, 65536, 14, 196609, 65536, 15, 2, 131072, 12, 65538, 131072, 13, 131074, 131072, 14, 196610, 131072, 15, 3, 196608, 12, 65539, 196608, 13, 131075, 196608, 14, 196611, 196608, 15)
+metadata/mountain_atlas_group = "山地-崖壁"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fl6jd"]
 texture = ExtResource("1_uvge0")
@@ -488,18 +603,8 @@ texture_region_size = Vector2i(32, 32)
 2:9/0 = 0
 3:9/0 = 0
 4:9/0 = 0
-4:9/0/terrain_set = 1
-4:9/0/terrain = 0
-4:9/0/terrains_peering_bit/bottom_right_corner = 0
 5:9/0 = 0
-5:9/0/terrain_set = 1
-5:9/0/terrain = 0
-5:9/0/terrains_peering_bit/bottom_right_corner = 0
-5:9/0/terrains_peering_bit/bottom_left_corner = 0
 6:9/0 = 0
-6:9/0/terrain_set = 1
-6:9/0/terrain = 0
-6:9/0/terrains_peering_bit/bottom_left_corner = 0
 7:9/0 = 0
 8:9/0 = 0
 8:9/0/terrain_set = 0
@@ -562,22 +667,8 @@ texture_region_size = Vector2i(32, 32)
 2:10/0 = 0
 3:10/0 = 0
 4:10/0 = 0
-4:10/0/terrain_set = 1
-4:10/0/terrain = 0
-4:10/0/terrains_peering_bit/bottom_right_corner = 0
-4:10/0/terrains_peering_bit/top_right_corner = 0
 5:10/0 = 0
-5:10/0/terrain_set = 1
-5:10/0/terrain = 0
-5:10/0/terrains_peering_bit/bottom_right_corner = 0
-5:10/0/terrains_peering_bit/bottom_left_corner = 0
-5:10/0/terrains_peering_bit/top_left_corner = 0
-5:10/0/terrains_peering_bit/top_right_corner = 0
 6:10/0 = 0
-6:10/0/terrain_set = 1
-6:10/0/terrain = 0
-6:10/0/terrains_peering_bit/bottom_left_corner = 0
-6:10/0/terrains_peering_bit/top_left_corner = 0
 7:10/0 = 0
 8:10/0 = 0
 9:10/0 = 0
@@ -622,18 +713,8 @@ texture_region_size = Vector2i(32, 32)
 2:11/0 = 0
 3:11/0 = 0
 4:11/0 = 0
-4:11/0/terrain_set = 1
-4:11/0/terrain = 0
-4:11/0/terrains_peering_bit/top_right_corner = 0
 5:11/0 = 0
-5:11/0/terrain_set = 1
-5:11/0/terrain = 0
-5:11/0/terrains_peering_bit/top_left_corner = 0
-5:11/0/terrains_peering_bit/top_right_corner = 0
 6:11/0 = 0
-6:11/0/terrain_set = 1
-6:11/0/terrain = 0
-6:11/0/terrains_peering_bit/top_left_corner = 0
 7:11/0 = 0
 7:11/0/terrain_set = 0
 7:11/0/terrain = 3
@@ -775,10 +856,30 @@ terrain_set_0/terrain_3/name = "石路"
 terrain_set_0/terrain_3/color = Color(0.16597462, 0.24126011, 0.46711743, 1)
 terrain_set_0/terrain_4/name = "石砖路"
 terrain_set_0/terrain_4/color = Color(0.5, 0.5, 0.55, 1)
-terrain_set_1/mode = 1
-terrain_set_1/terrain_0/name = "草2"
-terrain_set_1/terrain_0/color = Color(0.5694079, 0.2117647, 0.63529414, 1)
 sources/0 = SubResource("TileSetAtlasSource_fl6jd")
+pattern_0 = SubResource("TileMapPattern_uvge0")
+pattern_1 = SubResource("TileMapPattern_cwrni")
+pattern_2 = SubResource("TileMapPattern_7yle2")
+pattern_3 = SubResource("TileMapPattern_jx7ga")
+pattern_4 = SubResource("TileMapPattern_ro407")
+pattern_5 = SubResource("TileMapPattern_dvmrs")
+pattern_6 = SubResource("TileMapPattern_biqp4")
+pattern_7 = SubResource("TileMapPattern_rh38x")
+pattern_8 = SubResource("TileMapPattern_g23xe")
+pattern_9 = SubResource("TileMapPattern_a3fpb")
+pattern_10 = SubResource("TileMapPattern_rf5ry")
+pattern_11 = SubResource("TileMapPattern_ui7y3")
+pattern_12 = SubResource("TileMapPattern_s4shs")
+pattern_13 = SubResource("TileMapPattern_ssqff")
+pattern_14 = SubResource("TileMapPattern_7fsnu")
+pattern_15 = SubResource("TileMapPattern_xjj43")
+pattern_16 = SubResource("TileMapPattern_gyc6x")
+pattern_17 = SubResource("TileMapPattern_eo8gq")
+pattern_18 = SubResource("TileMapPattern_fnil5")
+pattern_19 = SubResource("TileMapPattern_dnlk8")
+pattern_20 = SubResource("TileMapPattern_qbcek")
+pattern_21 = SubResource("TileMapPattern_3isxy")
+pattern_22 = SubResource("TileMapPattern_2bfxn")
 
 [node name="Node2D" type="Node2D" unique_id=2000760619]
 
