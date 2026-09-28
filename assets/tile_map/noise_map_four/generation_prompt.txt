@@ -1,0 +1,13 @@
+Built-in imagegen generated four square source textures with these prompts. The final atlas was sampled, reduced to native 32x32 pixels, and mapped to a small shared palette.
+
+water:
+Use case: stylized-concept. Asset type: source texture for a Godot 2D pixel-art terrain tile. Create one seamless, square, top-down deep-blue water texture only, inspired by a retro procedural island map: broad muted navy-blue field, a few sparse slightly lighter blue single-pixel ripples or noise marks. Flat orthographic pixel art, crisp hard pixel boundaries, limited 3-color palette, low detail, no gradients, no lighting, no shoreline, no islands, no text, no grid, no border, no objects. Texture must be uniformly water edge to edge and tile seamlessly on all four sides. Output an opaque square image.
+
+sand:
+Use case: stylized-concept. Asset type: source texture for a Godot 2D pixel-art terrain tile. Create one seamless, square, top-down yellow ochre sand texture only, inspired by a retro procedural island map: warm muted golden yellow field with sparse darker ochre and pale tan tiny pixel speckles. Flat orthographic pixel art, crisp hard pixel boundaries, limited 3-color palette, low detail, no gradients, no lighting, no water, no shoreline, no grass, no text, no grid, no border, no objects. Texture must be uniformly sand edge to edge and tile seamlessly on all four sides. Output an opaque square image.
+
+grass:
+Use case: stylized-concept. Asset type: source texture for a Godot 2D pixel-art terrain tile. Create one seamless, square, top-down bright green grass texture only, inspired by a retro procedural island map: muted saturated grassy green field with sparse darker green and yellow-green tiny blocky pixel marks. Flat orthographic pixel art, crisp hard pixel boundaries, limited 3-color palette, low detail, no gradients, no lighting, no water, no shoreline, no sand, no text, no grid, no border, no objects. Texture must be uniformly grass edge to edge and tile seamlessly on all four sides. Output an opaque square image.
+
+coast:
+Use case: stylized-concept. Asset type: source texture for one Godot 2D pixel-art terrain tile. Create a square top-down coastline tile in the same retro procedural island-map visual language: deep navy blue water filling the left half, an irregular blocky 2-to-4-pixel-wide golden sand strip through the middle, muted green grass filling the right half. Flat orthographic pixel art, crisp hard pixel boundaries, sparse tiny texture marks, low detail, strictly limited blue/ochre/green palette. Coastline runs vertically so the top and bottom edges have matching colors and positions for tiling in that direction. No gradients, no lighting, no text, no grid, no border, no objects. Opaque square image.

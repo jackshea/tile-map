@@ -1,0 +1,31 @@
+{
+  "atlas": "terrain_noise_map_atlas.png",
+  "tile_size": [
+    32,
+    32
+  ],
+  "columns": 4,
+  "rows": 1,
+  "margin": 0,
+  "spacing": 0,
+  "tiles": {
+    "water": [
+      0,
+      0
+    ],
+    "sand": [
+      1,
+      0
+    ],
+    "grass": [
+      2,
+      0
+    ],
+    "coast": [
+      3,
+      0
+    ]
+  },
+  "coast_orientation": "water left, sand center, grass right; fixed vertical edge",
+  "terrain_auto_connect": false
+}
