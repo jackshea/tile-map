@@ -1,0 +1,4 @@
+interface:
+  display_name: "Godot 像素美术规划与交付"
+  short_description: "规划 32×32 像素美术资源，并交付可在 Godot 使用的图集与配置"
+  default_prompt: "请使用 $godot-pixel-art，结合当前项目规划 P0 美术资源，明确资源规格、模块拆分、交付文件、验收标准和 AI 出图提示词。"
