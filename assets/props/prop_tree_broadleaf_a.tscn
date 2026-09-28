@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/props/prop_tree_broadleaf_a.png" id="1_tree"]
+
+[node name="PropTreeBroadleafA" type="Node2D"]
+metadata/footprint_tiles = Vector2i(1, 1)
+metadata/foot_anchor_px = Vector2i(32, 88)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-32, -88)
+texture_filter = 1
+centered = false
+texture = ExtResource("1_tree")
